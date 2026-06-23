@@ -61,7 +61,7 @@ body {
 /*TODO HERO SECTION */
 
 
-/* SECTION */
+/* !SECTION */
 .hero {
     width: 100%;
     padding-top: 4rem;
@@ -70,7 +70,7 @@ body {
     gap: 2rem;
 }
 
-/* LEFT */
+/* !LEFT */
 .left-card {
     background: #e6dcd3;
     padding: 1.7rem 3rem;
@@ -92,11 +92,11 @@ body {
     font-size: 0.7rem;
 }
 
-/* RIGHT */
+/* !RIGHT */
 .right-card {
     position: relative;
     background-color: #8fb9c9;
-    background-image: url("https://cdn.discordapp.com/attachments/1493161435189219368/1507060669143453776/remove.png?ex=6a2647df&is=6a24f65f&hm=38d4fe04f6814628902c368d53e362a1ca277921874d40beeaeee49237897f05&");
+    background-image: url("../image/img1.png");
     background-repeat: no-repeat;
     background-position: top 31% left 114%;
     overflow: hidden;
@@ -238,7 +238,7 @@ button:hover {
     gap: 1.5rem;
 }
 
-/* CARD */
+/* ?CARD */
 .card-speakers {
     background: #001a23;
     overflow: hidden;
@@ -251,7 +251,7 @@ button:hover {
     object-fit: cover;
 }
 
-/* INFO */
+/* ?INFO */
 .info-speak {
     padding: 1rem;
     text-align: left;
@@ -278,12 +278,12 @@ button:hover {
 
 
 
-/* BUTTON */
+/* ?BUTTON */
 
 
 /*todo four section */
 
-/* SECTION */
+/* ?SECTION */
 .schedule {
     padding: 4% 0;
 }
@@ -351,7 +351,7 @@ button:hover {
     border: 1px solid rgb(45, 44, 44);
 }
 
-/* COLORS */
+/* ?COLORS */
 .card1 {
     background: #e3b2aa;
 }
@@ -381,7 +381,7 @@ button:hover {
 
 }
 
-/* MIDDLE */
+/* ?MIDDLE */
 .middle {
     padding-top: 2rem;
     padding-left: 0.8rem;
@@ -412,7 +412,7 @@ button:hover {
     border-left: 2px dashed black;
 }
 
-/* BUTTON */
+/* ?BUTTON */
 .btn {
     margin: 3rem auto 0;
     display: block;
@@ -446,7 +446,7 @@ button:hover {
     color: gray;
 }
 
-/* LINKS */
+/* ?LINKS */
 .links {
     display: flex;
     gap: 3rem;
@@ -463,7 +463,7 @@ button:hover {
     color: gray;
 }
 
-/* BOTTOM */
+/* ?BOTTOM */
 .botto {
     width: 100%;
     /* margin: 2rem auto 0; */
@@ -476,7 +476,7 @@ button:hover {
     border-top: 1px solid #293d46;
 }
 
-/* tablet */
+/* !tablet */
 @media (max-width: 992px) {
 
     body {
@@ -520,7 +520,7 @@ button:hover {
     }
 }
 
-/* mobile */
+/* !mobile */
 @media (max-width:700px) {
 
     body {
@@ -547,7 +547,7 @@ button:hover {
         display: none;
     }
 
-    /* HERO */
+    /* ?HERO */
 
     .hero {
         grid-template-columns: 1fr;
@@ -576,13 +576,13 @@ button:hover {
         font-size: 2rem;
     }
 
-    /* TRACKS */
+    /* ?TRACKS */
 
     .tracks-grid {
         grid-template-columns: 1fr;
     }
 
-    /* SPEAKERS */
+    /* ?SPEAKERS */
 
     .grid-speakers {
         grid-template-columns: 1fr;
@@ -593,7 +593,7 @@ button:hover {
         height: auto;
     }
 
-    /* SCHEDULE */
+    /* ?SCHEDULE */
 
     .side-tag,
     .side-tag2,
@@ -626,7 +626,7 @@ button:hover {
         min-width: 75px;
     }
 
-    /* FOOTER */
+    /* ?FOOTER */
 
     .footer-container {
         flex-direction: column;
